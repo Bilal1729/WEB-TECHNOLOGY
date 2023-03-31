@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="icon"
+        href="https://is5-ssl.mzstatic.com/image/thumb/Purple126/v4/28/1e/c3/281ec3f6-e593-0099-67a4-7a119da474c5/AppIcon-0-1x_U007emarketing-0-7-0-0-85-220.png/1200x600wa.png"
+        type="image/x-icon">
+    <title>Rectangle</title>
+</head>
+<style>
+    * {
+        font-style: italic;
+        font-size: 200;
+        text-align: center;
+    }
+
+    .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        border: 3px solid white;
+        padding: 20px 20px 20px 20px;
+        justify-content: center;
+        background-color: palevioletred;
+    }
+
+    body {
+        background-color: coral;
+    }
+
+    .btn1 {
+        border: none;
+        background-color: rgb(225, 49, 49);
+        color: white;
+        vertical-align: baseline;
+        border-radius: 100px;
+        font-size: 15px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        vertical-align: top;
+        float: right;
+    }
+</style>
+
+<body>
+    <br><br><br>
+    <div class="container">
+        <h1><b>Area of Rectangle</b></h1>
+        <form action="http://localhost:8080/addtext" method="get">
+            Length : &nbsp;&nbsp;<input type="number" name="L"><br><br>
+            Breadth : <input type="number" name="B"><br><br>
+            <button type="submit" class="btn1">Calculate</button>
+        </form>
+    </div>
+</body>
+
+</html>
